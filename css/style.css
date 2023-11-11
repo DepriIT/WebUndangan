@@ -83,5 +83,7 @@ body {
     .simply-countdown>.simply-section {
         padding: 0;
         margin: 1px;
+        width: 10px;
+        height: 10px;
     }
 }
