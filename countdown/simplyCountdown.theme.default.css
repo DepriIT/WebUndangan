@@ -30,3 +30,12 @@
 .simply-countdown>.simply-section .simply-amount {
     font-size: 1.2rem;
 }
+
+/* Mobile Phone */
+@media (max-width: 450px) {
+    .simply-countdown>.simply-section {
+        padding: 30px;
+        margin: 3px;
+    }
+
+}
