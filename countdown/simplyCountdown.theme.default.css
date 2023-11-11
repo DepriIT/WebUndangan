@@ -25,6 +25,7 @@
     display: block;
     text-align: center;
     font-size: 1rem;
+    text-shadow: 1px 1px var(--shadow);
 }
 
 .simply-countdown>.simply-section .simply-amount {

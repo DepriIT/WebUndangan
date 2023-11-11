@@ -1,14 +1,20 @@
 :root {
     --pink: #f14e95;
     --bg: #0a0a0a;
-    --shadow: rgba(0, 0, 0, 0.5);
+    --shadow: rgba(0, 0, 0, 1);
+}
+
+html {
+    scroll-behavior: smooth;
 }
 
 body {
     color: white;
     font-size: 1.2rem;
+    min-height: 4000px;
 }
 
+/* Hero Section */
 .hero::before {
     content: '';
     width: 100%;
@@ -33,14 +39,17 @@ body {
 .hero h1 {
     font-size: 3rem;
     font-family: 'Pacifio', cursive;
+    text-shadow: 1px 1px var(--shadow);
 }
 
 .hero h4 {
     font-size: 1.2rem;
+    text-shadow: 1px 1px var(--shadow);
 }
 
 .hero p {
     font-size: 1rem;
+    text-shadow: 1px 1px var(--shadow);
 }
 
 .hero a {
@@ -48,6 +57,7 @@ body {
     background-color: white;
     font-size: 0.9rem;
     margin-top: 2rem;
+    box-shadow: 1px 1px var(--shadow);
 }
 
 .hero a:hover {
@@ -55,12 +65,16 @@ body {
     background-color: var(--pink);
 }
 
+/* Navbar Section */
+
+
+
 /* Media Queries */
 
 /* Laptop */
 @media (max-width: 1366px) {
     html {
-        font-size: 80%;
+        font-size: 100%;
     }
 
 }
@@ -68,7 +82,7 @@ body {
 /* Tablet */
 @media (max-width: 768px) {
     html {
-        font-size: 62.5%;
+        font-size: 85%;
     }
 
 }
@@ -76,7 +90,7 @@ body {
 /* Mobile Phone */
 @media (max-width: 450px) {
     html {
-        font-size: 55%;
+        font-size: 75%;
     }
 
 }
