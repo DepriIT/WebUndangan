@@ -122,6 +122,10 @@ body {
   margin-bottom: 2rem;
 }
 
+.home .couple {
+  margin-top: 100px;
+}
+
 .home .couple h3 {
   font-family: 'Fasifico', cursive;
   font-size: 1.7rem;
