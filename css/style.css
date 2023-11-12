@@ -6,6 +6,7 @@
 
 html {
   scroll-behavior: smooth;
+  font-family: 'Poppins', sans-serif;
 }
 
 body {
@@ -38,7 +39,7 @@ body {
 
 .hero h1 {
   font-size: 3rem;
-  font-family: 'Pacifio', cursive;
+  font-family: 'Pacifico', cursive;
   text-shadow: 1px 1px var(--shadow);
 }
 
@@ -78,7 +79,7 @@ body {
 
 .mynavbar .navbar-brand,
 .mynavbar .offcanvas h5 {
-  font-family: 'Facifico', cursive;
+  font-family: 'Pacifico', cursive;
   font-size: 1.5rem;
   font-weight: bold;
 }
