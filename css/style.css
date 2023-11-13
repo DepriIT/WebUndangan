@@ -6,13 +6,13 @@
 
 html {
   scroll-behavior: smooth;
-  font-family: 'Poppins', sans-serif;
 }
 
 body {
   /* color: white; */
   font-size: 1rem;
   min-height: 4000px;
+  font-family: 'Poppins', sans-serif;
 }
 
 /* Hero Section */
@@ -81,7 +81,8 @@ body {
 .mynavbar .offcanvas h5 {
   font-family: 'Pacifico', cursive;
   font-size: 1.5rem;
-  font-weight: bold;
+  letter-spacing: 5px;
+  /* font-weight: bold; */
 }
 
 .mynavbar .offcanvas .offcanvas-body .navbar-nav a {
@@ -111,10 +112,12 @@ body {
   /* filter: grayscale(); */
 }
 
-.home h2 {
+.home h2,
+.info h2 {
   color: var(--pink);
   font-family: 'Pacifico', cursive;
   font-size: 3rem;
+  letter-spacing: 5px;
   /* text-transform: capitalize; */
 }
 
@@ -124,7 +127,7 @@ body {
 }
 
 .home .couple {
-  margin-top: 100px;
+  margin-top: 60px;
 }
 
 .home .couple h3 {
@@ -138,6 +141,58 @@ body {
   width: 100%;
   /* justify-content: center; */
   /* align-items: center; */
+}
+
+.info {
+  margin-top: -0.2px;
+  padding-top: 8rem;
+  padding-bottom: 2rem;
+  color: white;
+  background-color: var(--bg);
+}
+
+.info p {
+  margin: 1rem;
+  font-weight: 300;
+}
+
+.info a {
+  background-color: white;
+  color: var(--pink);
+  /* border-radius: 10px; */
+}
+
+.info a:hover {
+  color: #0a0a0a;
+  background-color: var(--pink);
+}
+
+.info .card {
+  background-color: rgba(255, 255, 255, 0.2);
+  color: white;
+  border: 1px solid #888;
+}
+
+.info .card .card-header {
+  text-transform: uppercase;
+  letter-spacing: 0.4rem;
+  border-bottom: 1px solid #888;
+  /* border-bottom: #888; */
+}
+
+.info .card p {
+  font-size: 1rem;
+}
+
+.info .card .card-footer {
+  border-top: 1px solid #888;
+  padding: 0 !important;
+}
+
+.info .card .card-footer p {
+  font-size: 0.8rem;
+  color: white;
+  1px solid #888;
 }
 
 
@@ -160,6 +215,18 @@ body {
 @media (max-width: 768px) {
   html {
     font-size: 85%;
+  }
+
+  .info .card {
+    margin: 2rem 0;
+  }
+
+  .mynavbar .offcanvas .offcanvas-title {
+    font-size: 1rem;
+  }
+
+  .home {
+    margin-bottom: 2rem;
   }
 
 }
