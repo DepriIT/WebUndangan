@@ -4,9 +4,9 @@
   --shadow: rgba(0, 0, 0, 1);
 }
 
-html {
+/* html {
   scroll-behavior: smooth;
-}
+} */
 
 body {
   /* color: white; */
@@ -75,6 +75,7 @@ body {
 
 .mynavbar .offcanvas {
   height: 100vh;
+  /* overflow: hidden; */
 }
 
 .mynavbar .navbar-brand,
@@ -113,7 +114,8 @@ body {
 }
 
 .home h2,
-.info h2 {
+.info h2,
+.gallery h2 {
   color: var(--pink);
   font-family: 'Pacifico', cursive;
   font-size: 3rem;
@@ -192,7 +194,16 @@ body {
 .info .card .card-footer p {
   font-size: 0.8rem;
   color: white;
-  1px solid #888;
+  /* border-top:  solid #888; */
+}
+
+.gallery {
+  padding-top: 8rem;
+}
+
+.gallery img {
+  width: 100%;
+  margin-top: 2rem;
 }
 
 
@@ -225,9 +236,13 @@ body {
     font-size: 1rem;
   }
 
-  .home {
-    margin-bottom: 2rem;
+  .navbar {
+    overflow: hidden;
   }
+
+  /* .home {
+    margin-bottom: 2rem;
+  } */
 
 }
 
